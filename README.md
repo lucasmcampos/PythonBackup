@@ -9,3 +9,5 @@
 ----**Você:** *C:\Users\USERNAME\Desktop*
 
 *Observação: Pode colar no prompt o caminho da pasta*
+
+Ainda vou criar um executável, porém, estou polindo o script.
