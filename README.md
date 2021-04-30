@@ -1,11 +1,14 @@
 # PythonBackup
 
-## Este é um script de backup manual feito em python! ##
+## Este é um script de backup automático feito em python! ##
 
-### Quando pedir o caminho da pasta, por exemplo, da pasta "Área de trabalho", coloque na seguinte forma: ### 
+Basta executar o script e ele ira começar a fazer backup das seguintes pastas:
+* Área de trabalho (Desktop)
+* Downloads 
+* Documentos
+* Imagens
 
-----****SCRIPT RODANDO:****----</p>
-----**Programa:** *Digite o caminho da Área de Trabalho:* </p>
-----**Você:** *C:\Users\USERNAME\Desktop*
 
-*Observação: Pode colar no prompt o caminho da pasta*
+* O arquivo ScriptBackup.py deve ser ignorado. É uma versão antiga *
+
+> Gostaria de agradece ao Diego Bobsin por ter me ajudado a refazer este script. Ele refez boa parte do código, deixando o scrpit automático.
