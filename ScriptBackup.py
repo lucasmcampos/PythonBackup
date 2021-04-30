@@ -2,10 +2,11 @@ import os
 import shutil
 
 print("************************************************")
-print("*******SCRPIT DE BACKUP MANUAL COM PYTHON*******")
-print("* [Autor:] Lucas Martins                       *")
-print("* [Versão:] 0.2                                *")
-print("* [Status:] Em desenvolvimento                 *")
+print("****  SCRPIT DE BACKUP MANUAL COM PYTHON  ******")
+print("* [Autor]: Lucas Martins                       *")
+print("* [Versão do Script]: 0.2                      *")
+print("* [Status]: Em desenvolvimento                 *")
+print("* [Versão Python]: 3.9.4                       *")
 print("************************************************")
 
 input("Press Enter to continue...")
@@ -22,7 +23,7 @@ def inicio ():
 #Função de copiar os diretórios para pasta do Backup.
 def criacaoPastas():
     
-    desktop = input("Digite o caminho do Desktop:")
+    desktop = input("Digite o caminho da Área de Trabalho:")
     copiaDesktop = pasta_backup + '/Área de Trabalho'
     shutil.copytree(src=desktop, dst=copiaDesktop)
     
