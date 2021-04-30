@@ -1,6 +1,16 @@
 import os
 import shutil
 
+print("************************************************")
+print("*******SCRPIT DE BACKUP MANUAL COM PYTHON*******")
+print("* [Autor:] Lucas Martins                       *")
+print("* [Versão:] 0.2                                *")
+print("* [Status:] Em desenvolvimento                 *")
+print("************************************************")
+
+input("Press Enter to continue...")
+
+
 nome = input("Digite o nome do funcionário: ")
 pasta_backup = 'C:/Backup' + nome
 
